@@ -1,0 +1,11 @@
+torch>=2.0.0
+torchvision
+torchaudio
+torchtext>=0.6.0
+datasets
+transformers
+numpy
+matplotlib
+pandas
+tqdm
+sentencepiece

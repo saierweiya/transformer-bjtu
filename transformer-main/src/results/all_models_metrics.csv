@@ -1,0 +1,7 @@
+Model,Final Train Loss,Final Val Loss,Min Val Loss,Epochs to Converge
+Large Model,7.3688,7.6914,7.6914,30
+Small Model,7.4439,7.7312,7.7312,30
+No Residual,5.9899,5.9242,5.9242,30
+No Layer Norm,7.5739,7.8837,7.8833,29
+No Positional Encoding,7.2769,7.6161,7.6161,30
+Single Head,7.4427,7.734,7.734,30
