@@ -96,11 +96,11 @@ bash scripts/run.sh
     cd src
     python draw.py
     ```
-性能对比
-模型	               验证损失	 训练时间	参数量
-Transformer-Large	    7.6914	  1h30min	129M
-Transformer-Small	    7.732	  45min	     48M
-无位置编码	            7.616	  48min	     48M
-单头注意力	            7.7340	  40min	     48M
-无层归一化	            7.8837	  48min	     48M
-无残差连接	            5.592	  50min	     48M
+| 模型变体 | 验证损失 | 训练时间 | 参数量 | 
+|---------|----------|----------|--------|
+| **Transformer-Large** | 7.6914 | 1h 30min | 129M |
+| **Transformer-Small** | 7.7320 | 45min | 48M | 
+| **无位置编码** | 7.6160 | 48min | 48M | 
+| **单头注意力** | 7.7340 | 40min | 48M | 
+| **无层归一化** | 7.8837 | 48min | 48M | 
+| **无残差连接** | 5.5920 | 50min | 48M | 
